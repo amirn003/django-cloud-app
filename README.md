@@ -1,3 +1,19 @@
+**How to launch**
+- Install the necessary Python packages.
+
+    python3 -m pip install -U -r requirements.txt
+
+- Perform migrations to create necessary tables:
+
+    python3 manage.py makemigrations
+
+- Run migration to activate models for the onlinecourse app.
+
+    python3 manage.py migrate
+
+- Start the development server:
+
+    python3 manage.py runserver
 
 **General Notes**
 
@@ -13,3 +29,5 @@ An `onlinecourse` app has already been provided in this repo upon which you will
 For your reference, we have prepared the ER diagram design for the new assesement feature.
 
 ![Onlinecourse ER Diagram](https://github.com/ibm-developer-skills-network/final-cloud-app-with-database/blob/master/static/media/course_images/onlinecourse_app_er.png)
+
+
